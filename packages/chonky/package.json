@@ -83,9 +83,9 @@
     "dts-cli": "^2.0.4",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-is": "^18.3.1",
     "size-limit": "^11.0.2",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
@@ -93,8 +93,7 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.10",
-    "@mui/styles": "^5.15.10",
+    "@mui/material": "^5.15.19",
     "@reduxjs/toolkit": "^2.2.1",
     "@types/classnames": "^2.2.11",
     "@types/fuzzy-search": "^2.1.5",
