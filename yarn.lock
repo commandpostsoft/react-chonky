@@ -15,44 +15,6 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@aperturerobotics/chonky@file:/Users/adriancurtin/Documents/GitHub/react-chonky/packages/chonky":
-  version "0.3.0"
-  resolved "file:packages/chonky"
-  dependencies:
-    "@emotion/react" "^11.11.3"
-    "@emotion/styled" "^11.11.0"
-    "@mui/material" "^5.15.19"
-    "@reduxjs/toolkit" "^2.2.1"
-    "@types/classnames" "^2.2.11"
-    "@types/fuzzy-search" "^2.1.5"
-    "@types/memoizee" "^0.4.10"
-    "@types/react" "^18.2.56"
-    "@types/react-dom" "^18.2.19"
-    "@types/react-redux" "^7.1.33"
-    "@types/react-virtualized-auto-sizer" "^1.0.4"
-    "@types/react-window" "^1.8.7"
-    "@types/redux-watch" "^1.1.1"
-    "@types/shortid" "^0.0.32"
-    classnames "^2.5.1"
-    deepmerge "^4.3.0"
-    exact-trie "^1.0.13"
-    fast-sort "^3.4.0"
-    filesize "^10.1.0"
-    fuzzy-search "^3.2.1"
-    hotkeys-js "^3.13.7"
-    immer "10.1.1"
-    react-dnd "16.0.1"
-    react-dnd-html5-backend "16.0.1"
-    react-intl "^6.6.2"
-    react-jss "^10.10.0"
-    react-redux "^9.1.0"
-    react-virtualized-auto-sizer "^1.0.22"
-    react-window "^1.8.10"
-    redux "^5.0.1"
-    redux-watch "^1.2.0"
-    shortid "^2.2.16"
-    tsdef "^0.0.14"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.22.5", "@babel/code-frame@^7.24.2", "@babel/code-frame@^7.24.7":
   version "7.24.7"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.7.tgz"
@@ -1053,6 +1015,44 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@commandpost/chonky@file:/Users/adriancurtin/Documents/GitHub/react-chonky/packages/chonky":
+  version "0.3.0"
+  resolved "file:packages/chonky"
+  dependencies:
+    "@emotion/react" "^11.11.3"
+    "@emotion/styled" "^11.11.0"
+    "@mui/material" "^5.15.19"
+    "@reduxjs/toolkit" "^2.2.1"
+    "@types/classnames" "^2.2.11"
+    "@types/fuzzy-search" "^2.1.5"
+    "@types/memoizee" "^0.4.10"
+    "@types/react" "^18.2.56"
+    "@types/react-dom" "^18.2.19"
+    "@types/react-redux" "^7.1.33"
+    "@types/react-virtualized-auto-sizer" "^1.0.4"
+    "@types/react-window" "^1.8.7"
+    "@types/redux-watch" "^1.1.1"
+    "@types/shortid" "^0.0.32"
+    classnames "^2.5.1"
+    deepmerge "^4.3.0"
+    exact-trie "^1.0.13"
+    fast-sort "^3.4.0"
+    filesize "^10.1.0"
+    fuzzy-search "^3.2.1"
+    hotkeys-js "^3.13.7"
+    immer "10.1.1"
+    react-dnd "16.0.1"
+    react-dnd-html5-backend "16.0.1"
+    react-intl "^6.6.2"
+    react-jss "^10.10.0"
+    react-redux "^9.1.0"
+    react-virtualized-auto-sizer "^1.0.22"
+    react-window "^1.8.10"
+    redux "^5.0.1"
+    redux-watch "^1.2.0"
+    shortid "^2.2.16"
+    tsdef "^0.0.14"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz"
@@ -2012,7 +2012,7 @@
   resolved "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.2.tgz"
   integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
-"@types/node@*", "@types/node@>= 12":
+"@types/node@*", "@types/node@^20.11.19", "@types/node@>= 12":
   version "20.12.8"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz"
   integrity sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==
@@ -4121,6 +4121,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
+
+fsevents@^2.3.2, fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.2:
   version "1.1.2"
