@@ -90,7 +90,7 @@ export const GridContainer: React.FC<FileListGridProps> = React.memo((props) => 
         gridRef.current.resetAfterRowIndex(Math.min(oldConf.rowCount, newConf.rowCount) - 1);
       }
       if (oldConf.columnCount !== newConf.columnCount) {
-        gridRef.current.resetAfterColumnIndex(Math.min(oldConf.columnCount, newConf.rowCount) - 1);
+        gridRef.current.resetAfterColumnIndex(Math.min(oldConf.columnCount, newConf.columnCount) - 1);
       }
       if (oldConf.columnWidth !== newConf.columnWidth) {
         gridRef.current.resetAfterIndices({ columnIndex: 0, rowIndex: 0 });
